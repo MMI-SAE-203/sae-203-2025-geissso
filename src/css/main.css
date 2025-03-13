@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.separator {
+  height: 7px;
+  background-color: #0F2713;
+}
+
+.bandeau__cta p {
+  font-family: 'Koulen', sans-serif;
+  font-size: 20px;
+}
+
+.bandeau__bouton {
+  background-color: #0F2713;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.actualite__image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.carousel__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.apropos__titre {
+  padding-right: 10px;
+  font-size: 2rem;
+  text-align: center;
+  color: #B4672B;
+  font-family: 'Koulen', sans-serif;
+}
+
+.apropos__text {
+  width: 361px;
+  color: #000;
+  font-family: 'Syne', sans-serif;
+  font-size: 16px;
+}
+
+.partenaire__logos img {
+  width: 150px;
+  margin: 10px;
+}
