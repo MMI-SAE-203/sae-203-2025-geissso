@@ -17,14 +17,4 @@ const mobileMenuButton = document.getElementById('mobile-menu-button');
     mobileMenuButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
     });
-    /** @type {import('tailwindcss').Config} */
-module.exports = {
-    content: [
-      "./src/**/*.{astro,html,js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  }
-  
+    
